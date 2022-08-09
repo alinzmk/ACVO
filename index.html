@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACVO</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Lato:wght@100;300;400&family=Merriweather:wght@300;700&family=Poppins:wght@500&family=Raleway:ital,wght@0,100;0,200;0,300;1,200&display=swap" rel="stylesheet">    <script src="https://kit.fontawesome.com/dc07f52925.js" crossorigin="anonymous"></script>
+</head>
+<body id="home">
+
+
+
+
+<nav id="navbar" class=" navbar-expand-lg ">
+    <div class="row justify-content-center">
+        <a href="#what-is-acvo" class="wia">WHAT IS ACVO</a>
+        <a href="#vote" class="acvo">VOTE</a>
+        <a href="#contact">CONTACT</a>
+    </div>
+</nav>
+
+
+
+        <!-- HOMEPAGE -->
+        <div id="home-page" class="row">
+            <div class="col-10 col-lg-6 m-auto">
+                <img src="css/acvo_logo.png" class="logo-big d-flex justify-content-center" alt="">
+            </div>
+            <div class="col-10 col-lg-6 m-auto">
+                <p class="home-text">Active Voting (ACVO) is a decentralized ballot application what people can earn money by creating ballots and use
+                different methods from usual. It is now at Ethereum Rinkeby test network.</p>
+            </div>
+
+            
+            
+        </div>
+
+        <img src="css/scrolldown.gif" class="scroll justify-content-center d-flex" alt="">
+
+        <!-- VOTING PART -->
+        <div id="vote" class="row desktop">
+            <div class="col-10 col-lg-6 m-auto ps-lg-5">
+                <div class="card"> 
+                    <div class="card-header head1">
+                        CREATE A BALLOT
+                    </div>
+                    <div class="card-body">
+                        <div class="card-header">
+                            CREATE
+                        </div>
+                        
+                        <div class="card-body">
+                            <p>You can create a new ballot for 0.0005 ETH</p>
+                            <button class="btn btn-secondary btn-sm">Create</button>
+                        </div>
+                        <div class="card-header">
+                            WITHDRAW
+                        </div>
+                        
+                        <div class="card-body">
+                            <p>If you create a ballot, you can withdraw ethers which you won from candidates.</p>
+                            <input type="text">
+                            <button class="btn btn-secondary btn-sm">Create</button>
+                        </div>
+                        <div class="card-header">
+                            SHOW WINNER
+                        </div>
+                        
+                        <div class="card-body">
+                            <p>Show winner of the ballot</p>
+                            <input type="text">
+                            <button class="btn btn-secondary btn-sm">Create</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-10 col-lg-6 m-auto pe-lg-5">
+                <div class="card">
+                    <div class="card-header head1">
+                        VOTE TO A BALLOT
+                    </div>
+                    <div class="card-body">
+                        <div class="card-header">SEARCH FOR A BALLOT                           
+                        </div>
+                            <div class="card-body">                                
+                                <input type="text" placeholder="SEARCH">
+                                <div class="dropdown d-inline">
+                                    <button class="btn btn-sm btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Dropdown button
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </div>
+                                <button class="btn btn-secondary btn-sm">VOTE</button>
+                            </div>
+                            <div class="card-header">ADD CANDIDATE
+                            </div>
+                            <div class="card-body">                           
+                                <input type="text" placeholder="BALLOT ID">
+                                <input type="text" placeholder="CANDIDATE">
+                                <button class="btn btn-secondary btn-sm">ADD CANDIDATE</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <!-- MOBILE VOTING -->
+        <div id="vote-mobile" class="row mobile">
+            <div class="col-12 swipe"> SWIPE LEFT FOR VOTE</div>
+            <div id="carouselExampleControls" class="carousel slide carousel-dark" data-bs-ride="carousel" data-interval="false" data-bs-interval="false">
+                <div class="carousel">
+                    <div class="carousel-item active">
+                        <div class="col-10 create m-auto">
+                            <div class="card">
+                                <div class="card-header head1">
+                                    CREATE A BALLOT
+                                </div>
+                                <div class="card-body">
+                                    <div class="card-header">
+                                        CREATE
+                                    </div>
+        
+                                    <div class="card-body">
+                                        <p>You can create a new ballot for 0.0005 ETH</p>
+                                        <button class="btn btn-secondary btn-sm">Create</button>
+                                    </div>
+                                    <div class="card-header">
+                                        WITHDRAW
+                                    </div>
+        
+                                    <div class="card-body">
+                                        <p>If you create a ballot, you can withdraw ethers which you won from candidates.</p>
+                                        <input type="text">
+                                        <button class="btn btn-secondary btn-sm">Create</button>
+                                    </div>
+                                    <div class="card-header">
+                                        SHOW WINNER
+                                    </div>
+        
+                                    <div class="card-body">
+                                        <p>Show winner of the ballot</p>
+                                        <input type="text">
+                                        <button class="btn btn-secondary btn-sm">Create</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-10 vote m-auto ">
+                            <div class="card">
+                                <div class="card-header head1">
+                                    VOTE TO A BALLOT
+                                </div>
+                                <div class="card-body">
+                                    <div class="card-header">SEARCH FOR A BALLOT
+                                    </div>
+                                    <div class="card-body">
+                                        <input type="text" placeholder="SEARCH">
+                                        <div class="dropdown d-inline">
+                                            <button class="btn btn-sm btn-secondary dropdown-toggle" type="button"
+                                                id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Dropdown button
+                                            </button>
+                                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                            </ul>
+                                        </div>
+                                        <button class="btn btn-secondary btn-sm">VOTE</button>
+                                    </div>
+                                    <div class="card-header">ADD CANDIDATE
+                                    </div>
+                                    <div class="card-body">
+                                        <input type="text" placeholder="BALLOT ID">
+                                        <input type="text" placeholder="CANDIDATE">
+                                        <button class="btn btn-secondary btn-sm">ADD CANDIDATE</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- WHAT IS ACVO -->
+        <div id="what-is-acvo" class="row justify-content-center">
+            <div class="col-10 m-auto">
+                <h3 class="justify-content-center d-flex">WHAT IS ACVO</h3>
+                <p class="parags">Active Voting (ACVO) is a decentralized ballot application what people can earn money by creating ballots and use
+                different methods from usual. It is now at Ethereum Rinkeby test network.
+                </p class="parags">
+                <p class="parags">Using ACVO, you can create new surveys that you can generate income from. ACVO, which provides full transparency with
+                its structure running on the Ethereum blockchain, does not record any votes cast by users.</p>
+            </div>
+        </div>
+
+        <!-- CONTACT -->
+        <div id="contact" class="row">
+            <div class="col-10 m-auto mb-0">
+                <h3 class="justify-content-center d-flex">CONTACT US</h3>
+                <p class="parags">We plan to create a fully transparent and confidential voting environment with ACVO and we are working hard for this.
+                    Your returns will be the most valuable investments for us. </p>
+                <p style="text-align:center;" class="mt-5">You can see more at Github and contact us with e-mail for your requests.</p>
+            </div>
+            <div class="col-12 con-logo justify-content-around ">
+                    <a class="my-4" target="_blank" href="https://github.com/alibertay/ACVO"><i class="fa-brands fa-github-square"></i></a> 
+                    <a class="my-4" target="_blank" href="https://www.linkedin.com/in/ali-bertay-solak-8103b6140/"><i class="fa-brands fa-linkedin"></i></a> 
+                    <a class="my-4" target="_blank" href="mailto:alibertay@gmail.com"><i class="fa-solid fa-envelope"></i></a> 
+        
+            </div>
+        </div>
+        
+
+
+    <!-- FOOTER -->
+    
+    
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+
+
+    
+</body>
+</html>
